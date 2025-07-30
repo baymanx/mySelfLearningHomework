@@ -5,8 +5,8 @@ sudo apt install -y autoconf automake libmpc-dev libmpfr-dev libgmp-dev \
 sudo apt install -y python3 python3-pip
 git clone --depth=1 https://github.com/riscv-collab/riscv-gnu-toolchain.git
 cd riscv-gnu-toolchain
-# RV64GC: 64-bit with standard extensions;  --with-arch=rv32imac
-./configure --prefix=/opt/riscv --with-arch=rv64gc --with-abi=lp64d
+ 
+./configure --prefix=/opt/riscv --with-arch=rv64gc --with-abi=lp64d #--with-arch=rv32imac
 make -j$(nproc)
 cd ..
 git clone --depth=1 https://github.com/riscv/riscv-isa-sim.git
@@ -17,7 +17,7 @@ mkdir build && cd build
 ../configure --prefix=/opt/riscv
 make -j$(nproc)
 make install
-cd ~/riscv-gnu-toolchain  # 或任意父目录
+cd ~/riscv-gnu-toolchain 
 git clone --depth=1 https://github.com/qemu/qemu.git
 cd qemu
 sudo apt install python3-tomli

@@ -1,2 +1,2 @@
 # mySelfLearningHomework
-Documenting my learning journey — it's both a diary and a self-introduction. I'll also start by noting down the technologies I plan to study in the future.
+This is a record of my learning journey — part diary, part self-introduction, and potentially useful as a tutorial. I’m starting with a list of technologies I aim to explore.

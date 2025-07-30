@@ -1,3 +1,4 @@
+```
 sudo apt update
 sudo apt install -y autoconf automake libmpc-dev libmpfr-dev libgmp-dev \
     gawk build-essential bison flex texinfo curl git device-tree-compiler \

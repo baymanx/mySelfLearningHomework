@@ -1,3 +1,4 @@
+```
 # 禁用 suspend 和 hibernate 服务
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 

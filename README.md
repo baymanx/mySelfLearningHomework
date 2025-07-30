@@ -1,2 +1,2 @@
 # mySelfLearningHomework
-记录自己学习历程 算是日记 并记下未来打算学习的技术
+Documenting my learning journey — it's both a diary and a self-introduction. I'll also start by noting down the technologies I plan to study in the future.
